@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/17cd73726d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo" id="logo"><i class="far fa-gem"></i> PELIF</h1>
+            <nav>
+                <ul>
+                    <li><a href="#projects"></i> Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="edit.html"><i class="fas fa-edit"></i> Edit</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropbtn">Socials &#9660;</a>
+                        <div class="dropdown-content">
+                            <a href="https://x.com/phlpllv"><i class="fab fa-twitter"></i> Twitter</a>
+                            <a href="https://www.reddit.com/user/Entire-Step-57/"><i class="fab fa-reddit"></i> Reddit</a>
+                            <a href="https://github.com/pelifpelif"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Philip Llave</h2>
+            </div>
+            <div class="hero-image">
+                <img src="farmhands.png" alt="Person Image">
+            </div>
+        </div>
+    </section> 
+
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="Pyjama.png" alt="pajama kid">
+                    <h3>Pyjamas Club</h3>
+                    <p>Every Pyjamas Club character captures the whimsical, expressive style of anime while embodying the cuteness and pastel elements, all wrapped up in the delightful theme of pyjamas.</p>
+                </div>
+                <div class="project">
+                    <img src="SOTW.png" alt="whale">
+                    <h3>Secret Society of Whales</h3>
+                    <p>Secret Society of Whales is a collection of 10,000 Whale NFTs that serve as a membership and a vote within our community. #TogetherWeWhale is our initiative to uplift the NFT space as a collective group.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2>My Hobbies</h2>
+            <div class="about-boxes">
+                <div class="about-box">
+                    <img src="lol.jfif" alt="">
+                    <h3>League of Legends</h3>
+                    <p>League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.</p>
+                </div>
+                <div class="about-box">
+                    <img src="tft.jfif" alt="">
+                    <h3>Teamfight Tactics</h3>
+                    <p>Teamfight Tactics (TFT) is an auto battler game developed and published by Riot Games. The game is a spinoff of League of Legends and is based on Dota Auto Chess, where players compete online against seven other opponents by building a team to be the last one standing.</p>
+                </div>
+                <div class="about-box">
+                    <img src="valorant.jfif" alt="">
+                    <h3>VALORANT</h3>
+                    <p>Valorant is an online multiplayer computer game, produced by Riot Games. It is a first-person shooter game, consisting of two teams of five, where one team attacks and the other defends.</p>
+                </div>
+                <div class="about-box">
+                    <img src="pixels.webp" alt="">
+                    <h3>Pixels</h3>
+                    <p>Pixels is an idle farming blockchain-backed web3 game, with a Free-to-Play option, utilising an off-chain currency called Coins, and an on-chain currency called PIXEL. Pixels is powered by the Ronin Network.</p>
+                </div>
+                <div class="about-box">
+                    <img src="Sipher.jpg" alt="">
+                    <h3>Sipher Odyssey</h3>
+                    <p>Sipher Odyssey invites players into a matrix-like universe filled with vibrant animal characters. Experience the thrill of blasting through hordes of enemies with godlike abilities in an epic saga - designed in Tiktok-like short form for on-the-go action.</p>
+                </div>
+                <div class="about-box">
+                    <img src="borderlands.jpg" alt="">
+                    <h3>Borderlands 3</h3>
+                    <p>Borderlands 3 has you blasting through multiple worlds as one of four Vault Hunters, the ultimate treasure-seeking badasses, each with deep skill trees, abilities, and customization. Play solo or party up in co-op to take on deranged enemies, score loads of loot, and save the galaxy from a fanatical threat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for scrolling to top when clicking on logo
+        const logo = document.getElementById('logo');
+        logo.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    
+</body>
+</html>
